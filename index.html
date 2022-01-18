@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Product</title>
+   <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="css/animate.css">
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="body">
+    <!-- Trigger/Open The Modal -->
+<!-- <button id="myBtn">Open Modal</button> -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <h2>Sign In</h2>
+    </div>
+    <div class="modal-body">
+      <form  class="signin" id="signin">
+         <input type="hidden" name="admin_mail[" value="nataliaof380@gmail.com">
+
+         <label for="username" class="label-usname">Your username *</label>
+         <input type="text" id="username" name="username" class="signin__username input2">
+
+         <label for="password" class="label-usname-pass">Enter the password *</label>
+         <input type="password" id="password" name=password" class="signin__password input2">
+
+         
+
+         <button class="button">Sign In</button>
+      </form>
+      
+    </div>
+    
+  </div>
+
+</div>
+
+      <!-- Trigger/Open The Modal -->
+<!-- <button id="myBtn">Open Modal</button> -->
+
+<!-- The Modal -->
+<div id="myModal2" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <h2>Sign Up</h2>
+    </div>
+    <div class="modal-body">
+      <form  class="signin" id="signup" enctype="multipart/form-data" novalidate>
+
+         <input type="hidden" name="admin_mail[" value="nataliaof380@gmail.com">
+
+         <label for="name"class="label-name">Your name *</label>
+      
+         <input type="text" id="name" class="signin__name input">
+
+         <label for="password1" class="label-password">Enter the password *</label>
+         <input type="password" id="password1" class="signin__password1 input">
+         <label for="password2" class="label-password1">Enter the password *</label>
+         <input type="password" id="password2" class="signin__passworddubl input">
+
+         <label for="phone">Your phone *</label>
+         <input type="tel" data-validate-field="tel" id="phone" class="signin__phone input ">
+
+         <label class="label-email" for="email">Your email*</label>
+         <input type="email" data-validate-field="email" id="email"  class="signin__email input">
+
+         <button type="submit" class="button btn-form1">Sign Up</button>
+      </form>
+      
+    </div>
+    
+  </div>
+
+</div>
+
+   <div class="site-container">
+      <header class="header">
+   <div class="container">
+     
+      <!-- Trigger/Open The Modal -->
+<!-- <button id="myBtn">Open Modal</button> -->
+
+<!-- The Modal -->
+<div id="myModal3" class="modal">
+
+  <!-- Modal content -->
+  <div class="modalvideo-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <h2>Watch the Video</h2>
+    </div>
+    <div class="modal-body">
+      <div class="thumb-wrap">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/6pJGAg3KxSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </div>
+      </form>
+      
+    </div>
+    
+  </div>
+
+</div>
+
+      
+   
+      <nav class="nav ">
+      <div class="nav__logo">
+         <a href="#"> <img src="images/logo.svg" alt="logo"></a>
+        <a href="#"><span class="nav__name">Product</span></a>
+         
+      </div>
+      <ul class="menu">
+         <li class="menu__list">
+            <a href="#" class="menu__link">Product</a>
+         </li>
+         <li class="menu__list">
+            <a href="#" class="menu__link">Customers </a>
+         </li>
+         <li class="menu__list">
+            <a href="#" class="menu__link">Pricing</a>
+         </li>
+         <li class="menu__list">
+            <a href="#" class="menu__link">Resources</a>
+         </li>
+      </ul>
+      <div class="nav__buttons">
+         <button class="nav__in" id="myBtn">Sign In</button>
+         <button class="nav__up  button" id="myBtn2">Sign Up</button>
+         <div class="toggle"></div>
+      </div>
+      <div class="nav__burger">
+         <span></span>
+         <span></span>
+         <span></span>
+      </div>
+   </nav>
+ 
+  
+
+      <div class="header__box">
+         <div class="header__info wow bounceInLeft">
+            <h1 class="header__title">Work at the speed <br> of thought</h1>
+            <p class="header__text">
+               Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.
+            </p>
+            <div class="header__buttons">
+               <a href="#started" class="button"> Get started</a>
+               <!-- <button  >
+                 
+               </button> -->
+               <div class="watch-video" id="myBtn3">
+                  <img src="images/iconvideo.svg" alt="video">
+                  <span>Watch the Video</span>
+               </div>
+            </div>
+         </div>
+         <div class="header__img wow bounceInRight">
+            <img src="images/amico.svg" alt="amico">
+         </div>
+      </div>
+   </div>
+   
+</header>
+      <div class="main">
+         
+            <section class="offer">
+               <div class="container">
+               <h2 class="offer__title">
+                  Product  was Built Specifically for You
+               </h2>
+               <div class="offer__box">
+                  <div class="offer__item wow bounceInLeft" data-wow-duration="1s">
+                     <img src="images/icon1png.png" alt="offer">
+                     <h3 class="offer__titleitem">First click tests</h3>
+                     <p class="offer__text">
+                        While most people enjoy casino gambling,
+                     </p>
+                  </div>
+                  <div class="offer__item wow bounceInUp" data-wow-duration="1s">
+                     <img src="images/icon2.png" alt="offer">
+                     <h3 class="offer__titleitem">First click tests</h3>
+                     <p class="offer__text">
+                        Sports betting, lottery and bingo playing for the fun
+                     </p>
+                  </div>
+                  <div class="offer__item wow bounceInUp">
+                     <img src="images/icon3.png" alt="offer">
+                     <h3 class="offer__titleitem">Preference tests</h3>
+                     <p class="offer__text">
+                        The Myspace page defines the individual.
+                     </p>
+                  </div>
+                  <div class="offer__item wow bounceInRight">
+                     <img src="images/icon4.png" alt="offer">
+                     <h3 class="offer__titleitem">Five second tests</h3>
+                     <p class="offer__text">
+                        Personal choices and the overall personality of the person. 
+                     </p>
+                  </div>
+                 
+               </div>
+               <a class="button btn-center" href="#started">SIGN UP NOW</a>
+               </div>
+            </section>
+         <div class="container">
+            <section class="cards">
+               <div class="cards__fload-left  ">
+                  <div class="cards__info wow bounceInLeft">
+                     <h4 class="cards__litltitle">Effortless Validation for</h4>
+                     <h2 class="cards__title">
+                        Management
+                     </h2>
+                     <p class="cards__text">
+                        The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. 
+                     </p>
+                     <h4 class="cards__litltitle">Accessory makers</h4>
+                     <p class="cards__text">
+                        While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun
+                     </p>
+                     <h4 class="cards__litltitle">Alterationists</h4>
+                     <p class="cards__text">
+                        If you are looking for a new way to promote your business that won’t cost you more money, 
+                     </p>
+                  </div>
+                  <div class="cards__img mleft wow bounceInRight">
+                     <img src="images/amico1.png" alt="amico">
+                  </div>
+                  
+               </div>
+               <div class="cards__fload-right">
+                  <div class="cards__img mrigt wow bounceInLeft">
+                     <img src="images/amico2.png" alt="amico">
+                  </div>
+                  <div class="cards__info wow bounceInRight">
+                     <h4 class="cards__litltitle">Easier decision making for</h4>
+                     <h2 class="cards__title">
+                        Customer Support
+                     </h2>
+                     <p class="cards__text">
+                        The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person.  
+                     </p>
+                     <ul class="cards__list">
+                        <li class="cards__item orange">
+                           Never worry about overpaying for your energy again. 
+                        </li>
+                        <li class="cards__item read">
+                           We will only switch you to energy companies that we trust and will treat you right
+                        </li>
+                        <li class="cards__item blue">
+                           We track the markets daily and know where the savings are. 
+                        </li>
+                     </ul>
+                  </div>
+                 
+                  
+               </div>
+               <div class="cards__fload-left  ">
+                  <div class="cards__info wow bounceInLeft">
+                     <h4 class="cards__litltitle">Optimisation for</h4>
+                     <h2 class="cards__title">
+                        Collaborative
+                     </h2>
+                     <p class="cards__text">
+                        Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior.  
+                     </p>
+                     <h4 class="cards__litltitle">Accessory makers</h4>
+                     <p class="cards__text">
+                        While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun
+                     </p>
+                     <h4 class="cards__litltitle">Alterationists</h4>
+                     <p class="cards__text">
+                        If you are looking for a new way to promote your business that won’t cost you more money, 
+                     </p>
+                  </div>
+                  <div class="cards__img mleft wow bounceInRight">
+                     <img src="images/amico3.png" alt="amico">
+                  </div>
+                  
+               </div>
+            </section>
+         </div>
+         <section class="experts">
+            <div class="container">
+               <h2 class="experts__title">Quick & Easy Process</h2>
+               <p class="experts__text">
+                  Do you require some help for your project: Conception workshop,
+                  prototyping, marketing strategy, landing page, Ux/UI?
+               </p>
+               <div class="experts__box">
+                  <div class="experts__box-left">
+                     <div class=" experts-r  wow bounceInLeft" data-wow-duration="0.5s">
+                        <img src="images/Avator1.png" alt="expert" class="expert__img .border-read">
+                        <p class="experts__info experts__info-left">I can take care of your pitch</p>
+                     </div>
+                     <div class=" experts-l wow bounceInLeft" data-wow-duration="1s">
+                        <p class="experts__info experts__info-right">I can design you website</p>
+                        <img src="images/Avator2.png" alt="expert" class="expert__img border-green">
+                     </div>
+                  </div>
+                  <div class="experts__box-regt">
+                     <div class=" experts-l wow bounceInRight" data-wow-duration="0.5s">
+                        <p class="experts__info experts__info-right">I can prototype your app</p>
+                        <img src="images/Avator3.png" alt="expert" class="expert__img border-violet">
+                       
+                     </div>
+                     <div class=" experts-r wow bounceInRight" data-wow-duration="1s">
+                        <img src="images/Avator4.png" alt="expert" class="expert__img border-blue">
+                        <p class="experts__info experts__info-left">I can help marketing strategy</p>
+                     </div>
+                  </div>
+               </div>
+               <a class="button btn-center" href="#started">SIGN UP NOW</a>
+            </div>
+
+         </section>
+           <div class="container">
+            <div class="slider">
+   <h2 class="slider__title">Contents Strategies</h2>
+   <p class="slider__text">
+      We focus on ergonomics and meeting you where you work. It's only a keystroke away. 
+   </p>
+   <!-- Slider main container -->
+<div class="swiper">
+   <!-- Additional required wrapper -->
+   <div class="swiper-wrapper">
+     <!-- Slides -->
+     <div class="swiper-slide">
+        <div class="slider__card">
+           <img src="images/slider1.png" alt="slider imeges" class="slider__img">
+           <p class="slider__data">By <span>Wahid Ari</span> | 03 March 2019</p>
+           <p class="slider__info">
+            Increasing Prosperity With Positive Thinking
+           </p>
+        </div>
+     </div>
+
+
+
+     <div class="swiper-slide">
+        <div class="slider__card">
+          <img src="images/slider2.png" alt="slider imeges" class="slider__img">
+          <p class="slider__data">By <span>Wahid Ari</span> | 03 March 2019</p>
+           <p class="slider__info">
+            Motivation Is The First Step To Success
+           </p>
+          </div>
+     </div>
+
+     <div class="swiper-slide">
+      <div class="slider__card">
+         <img src="images/slider3.png" alt="slider imeges" class="slider__img">
+         <p class="slider__data">By <span>Wahid Ari</span> | 03 March 2019</p>
+         <p class="slider__info">
+            Success Steps For Your Personal Or Business
+         </p>
+      </div>
+      </div>
+
+      <div class="swiper-slide">
+         <div class="slider__card">
+            <img src="images/slider1.png" alt="slider imeges" class="slider__img">
+            <p class="slider__data">By <span>Wahid Ari</span> | 03 March 2019</p>
+            <p class="slider__info">
+             Increasing Prosperity With Positive Thinking
+            </p>
+         </div>
+      </div>
+ 
+ 
+ 
+      <div class="swiper-slide">
+         <div class="slider__card">
+           <img src="images/slider2.png" alt="slider imeges" class="slider__img">
+           <p class="slider__data">By <span>Wahid Ari</span> | 03 March 2019</p>
+            <p class="slider__info">
+             Motivation Is The First Step To Success
+            </p>
+           </div>
+      </div>
+ 
+      <div class="swiper-slide">
+       <div class="slider__card">
+          <img src="images/slider3.png" alt="slider imeges" class="slider__img">
+          <p class="slider__data">By <span>Wahid Ari</span> | 03 March 2019</p>
+          <p class="slider__info">
+             Success Steps For Your Personal Or Business
+          </p>
+       </div>
+       </div>
+
+
+     </div>
+     ...
+   
+   <!-- If we need pagination -->
+   <div class="swiper-pagination"></div>
+ 
+   
+ 
+   
+ </div>
+</div>
+              <section class="prise">
+                 <h2 class="prise__title">Price Table</h2>
+                 <p class="prise__text">
+                  We offer competitive price
+                 </p>
+                 <div class="prise__cards">
+                    <div class="prise__card card wow bounceInUp" data-wow-duration="0.5s">
+                       <h3 class="card__title">Free</h3>
+                       <p class="card__text">Brief price description</p>
+                       <span class="big">0<sup>$</sup></span><span class="little">Per / month</span>
+                       <p class="card__text">Only 2 Operators</p>
+                       <p class="card__text">Notifications</p>
+                       <p class="card__text">Landing Pages</p>
+                       <button class="button card__button">Order Now</button>
+                    </div>
+                    <div class="prise__card card  wow bounceInUp" data-wow-duration="1s">
+                     <h3 class="card__title">Standard</h3>
+                     <p class="card__text">Brief price description</p>
+                     <span class="big">5<sup>$</sup></span><span class="little">Per / month</span>
+                     <p class="card__text">5+ Operators</p>
+                     <p class="card__text">Notifications</p>
+                     <p class="card__text">Landing Pages</p>
+                     <button class="button card__button">Order Now</button>
+                  </div>
+                  <div class="prise__card card  wow bounceInUp" data-wow-duration="1.5s">
+                     <h3 class="card__title">Premium</h3>
+                     <p class="card__text">Brief price description</p>
+                     <span class="big">10<sup>$</sup></span><span class="little">Per / month</span>
+                     <p class="card__text">10+ Operators</p>
+                     <p class="card__text">Notifications</p>
+                     <p class="card__text">Landing Pages</p>
+                     <button class="button card__button">Order Now</button>
+                  </div>
+                 </div>
+              </section>
+              <section class="reviews">
+                 <h2 class="reviews__title">What Clients Say</h2>
+                 <p class="reviews__text">
+                  Problems trying to resolve the conflict between 
+                  the two major realms of Classical physics: Newtonian mechanics 
+                 </p>
+                 <div class="reviews__box">
+                    <div class="reviews__card  wow bounceInUp"data-wow-duration="0.5s">
+                       <div class="stars">
+                        <svg width="19" height="19" viewBox="0 0 19 19" stroke="#F3CD03" fill="#F3CD03" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z" />
+                           </svg>
+                           <svg width="19" height="19" viewBox="0 0 19 19" stroke="#F3CD03" fill="#F3CD03" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z" />
+                              </svg>
+                              <svg width="19" height="19" viewBox="0 0 19 19" stroke="#F3CD03" fill="#F3CD03" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z" />
+                                 </svg>
+                                 <svg width="19" height="19" viewBox="0 0 19 19" stroke="#F3CD03" fill="#F3CD03" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z" />
+                                    </svg>     
+                           <svg width="19" height="19" viewBox="0 0 19 19" stroke="#F3CD03" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z" />
+                              </svg>
+                           
+                       </div>
+                       <p class="reviews__info">
+                        Product helps you see how many 
+                        more days you need to work to 
+                        reach your financial goal.
+                       </p>
+                       <div class="reviews__clients">
+                          <img src="images/Client1.png" alt="client" class="reviews__avatar">
+                          <div class="reviews__nemebox">
+                             <h3 class="reviews__name">Wahid Ari</h3>
+                             <p class="reviews__profession">Designer</p>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="reviews__card  wow bounceInUp" data-wow-duration="1s">
+                     <div class="stars">
+                        <svg width="19" height="19" viewBox="0 0 19 19" stroke="#F3CD03" fill="#F3CD03" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z" />
+                           </svg>
+                           <svg width="19" height="19" viewBox="0 0 19 19" stroke="#F3CD03" fill="#F3CD03" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z" />
+                              </svg>
+                              <svg width="19" height="19" viewBox="0 0 19 19" stroke="#F3CD03" fill="#F3CD03" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z" />
+                                 </svg>
+                                 <svg width="19" height="19" viewBox="0 0 19 19" stroke="#F3CD03" fill="#F3CD03" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z" />
+                                    </svg>     
+                           <svg width="19" height="19" viewBox="0 0 19 19" stroke="#F3CD03" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z" />
+                              </svg>
+                           
+                     </div>
+                     <p class="reviews__info">
+                      Product helps you see how many 
+                      more days you need to work to 
+                      reach your financial goal.
+                     </p>
+                     <div class="reviews__clients">
+                        <img src="images/Client2.png" alt="client" class="reviews__avatar">
+                        <div class="reviews__nemebox">
+                           <h3 class="reviews__name">Wahid Ari</h3>
+                           <p class="reviews__profession">Designer</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="reviews__card  wow bounceInUp" data-wow-duration="1.5s">
+                     <div class="stars">
+                        <svg width="19" height="19" viewBox="0 0 19 19" stroke="#F3CD03" fill="#F3CD03" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z" />
+                           </svg>
+                           <svg width="19" height="19" viewBox="0 0 19 19" stroke="#F3CD03" fill="#F3CD03" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z" />
+                              </svg>
+                              <svg width="19" height="19" viewBox="0 0 19 19" stroke="#F3CD03" fill="#F3CD03" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z" />
+                                 </svg>
+                                 <svg width="19" height="19" viewBox="0 0 19 19" stroke="#F3CD03" fill="#F3CD03" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z" />
+                                    </svg>     
+                           <svg width="19" height="19" viewBox="0 0 19 19" stroke="#F3CD03" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z" />
+                              </svg>
+                           
+                        
+                           
+                     </div>
+                     <p class="reviews__info">
+                      Product helps you see how many 
+                      more days you need to work to 
+                      reach your financial goal.
+                     </p>
+                     <div class="reviews__clients">
+                        <img src="images/Client3.png" alt="client" class="reviews__avatar">
+                        <div class="reviews__nemebox">
+                           <h3 class="reviews__name">Wahid Ari</h3>
+                           <p class="reviews__profession">Designer</p>
+                        </div>
+                     </div>
+                  </div>
+                 </div>
+              </section>
+              <div class="getstart  wow bounceInLeft">
+                 <div class="getstart__info">
+                    <p class="getstart__text">
+                     Join 100 Compannies who boost their business with Product
+                    </p>
+                    <button class="getstart__btn">Get  This </button>
+                 </div>
+                 <div class="getstart__img">
+                  <img src="images/screen.png" alt="screen" >
+                 </div>
+                
+              </div>
+           </div>
+         </div>
+      </div>
+     
+     
+      
+      <footer class="footer">
+   <div class="container">
+   <div class="footer__box">
+      <div class="footer__logobox">
+         <div class="footer__logo">
+            <a href="#"></a><img src="images/logo.svg" alt="logo"></a>
+            <a href="#"><span class="footer__name">Product</span></a>
+            
+         </div>
+         <div class="footer__social">
+            <a href="# "><img src="images/social1.png" alt="instagramm"></a>
+            <a href="#"><img src="images/social2.png" alt="facebook"></a>
+            <a href="#"> <img src="images/social3.png" alt="twiter"></a> 
+         </div>
+      </div> 
+      <div class="footer__menu">
+         <h3 class="menu__title">Resource</h3>
+         <ul class="fmenu resource">
+           <li class="fmenu__item"><a href="#" class="fmenu__link">About Us</a></li>
+           <li class="fmenu__item"><a href="#" class="fmenu__link">Blog</a></li>
+           <li class="fmenu__item"><a href="#" class="fmenu__link">Contact</a></li>
+           <li class="fmenu__item"><a href="#" class="fmenu__link">FAQ</a></li>
+         </ul>
+      </div>
+      <div class="footer__menu">
+         <h3 class="menu__title">Legal Stuff</h3>
+         <ul class="fmenu legal">
+           <li class="fmenu__item"><a href="#" class="fmenu__link">Disclaimer</a></li>
+           <li class="fmenu__item"><a href="#" class="fmenu__link">Financing</a></li>
+           <li class="fmenu__item"><a href="#" class="fmenu__link">Privacy Policy</a></li>
+           <li class="fmenu__item"><a href="#" class="fmenu__link">Terms of Service</a></li>
+         </ul>
+      </div>
+      <div class="footer__form">
+         <p class="footer__tagline">
+            knowing you're always on the best energy deal. 
+
+         </p>
+         <form class="f" id="started">
+            <input type="tel" data-validate-field='tel' class="f__text">
+            <button class="button">Sign up Now</button>
+         </form>
+      </div>
+      </div>
+      
+   
+   </div>
+</footer>
+
+   </div>
+   <script src="js/wow.min.js"></script>
+   <script>
+   new WOW().init();
+   </script>
+   
+  
+   <script src="js/inputmask.min.js"></script>
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+   <script src="js/main.min.js"></script>
+</body>
+</html>
